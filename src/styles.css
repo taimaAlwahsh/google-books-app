@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {   
+    font-family: 'RobotoMono-Regular.ttf';
+    src: url('../src/assets/fonts/RobotoMono-Regular.ttf');
+  }
+
+  @font-face {   
+    font-family: 'RobotoMono-SemiBold.ttf';
+    src: url('../src/assets/fonts/RobotoMono-SemiBold.ttf');
+  }
+

@@ -1,0 +1,183 @@
+body {
+    font-family: RobotoMono-SemiBold !important;
+    color: white;
+    width :100%;
+  }
+
+  h1{
+    color: white;
+    font-family: RobotoMono-SemiBold !important;
+  }
+  
+  .split {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .split2 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-image:url("../assets/logoOfSwitch.jpg") ;
+    background-repeat: no-repeat;
+    height: 100%;
+
+  }
+  
+  .right {
+    right: 0;
+    background-color: #ff6682;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .section1{
+    position: absolute;
+    top: 5%; left: 5%;
+    display: block;
+  }
+  
+   img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    display: block;
+  }
+
+  p , span{
+      color: black;
+  }
+
+  .logo{
+    position: absolute;
+    bottom: 20px; left: 0;
+    width: 100%;
+  }
+
+
+  input{
+    width: 225px;
+    height: 30px;
+    border-radius: 50px;
+    opacity: 60%;
+    text-align: center;
+  }
+
+  .divSort{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sortButton{
+    position: absolute;
+    top: 85%; right: 5%;
+    height: 50px;
+    width: 109.27px;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .goButton{
+    background-image:  linear-gradient(to right,black, #ff6682);
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+ .goDiv{
+    position:absolute;
+    top: 110%;
+    left: 40%;
+   
+   
+} 
+  
+
+  /*  */
+  ::ng-deep .pagination-total {
+    flex: 1 1 40%;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 38px;
+    padding: 0 10px;
+  }
+  
+  ::ng-deep pagination-controls {
+    flex: 1 1 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ::ng-deep .ngx-pagination {
+    margin: 0 0;
+    display: flex;}
+    li:focus {
+        outline-color: transparent;
+    }
+    a:focus {
+        outline-color: transparent;
+    }
+  
+    .pagination-previous a::before, .pagination-previous.disabled::before {
+        flex: '\6f' !important;
+        font-family: data-table !important;
+        font-size: 20px !important;
+        margin-right: 0px !important;
+    }
+  
+    .pagination-next a::after, .pagination-next.disabled::after {
+        flex: '\70' !important;
+        font-family: data-table !important;
+        font-size: 20px !important;
+        margin-left: 0px !important;
+    }
+  
+    .pagination-next, .pagination-previous {
+        transform: translateY(6px);}
+        a {
+            line-height: 15px;
+            height: 20px;
+        }
+    
+  
+    li {
+        color: rgba(0, 0, 0, 0.54);
+        font-size: 12px;}
+       
+  
+        a {
+            margin: 6px 3px;
+        }
+  
+       
+    
+  
+  
+  ::ng-deep .page-nav {
+    display: flex;
+    justify-content: flex-end;
+  }

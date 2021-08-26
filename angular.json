@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "search-books-app"
+    }
+  },
+  "defaultProject": "search-books-app",
+  "cli": {
+    "analytics": false
+  }
 }
